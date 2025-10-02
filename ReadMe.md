@@ -16,6 +16,7 @@ In this phase, the goal is to **analyze and cluster users** from the [MovieLens 
 * PCA visualization of clusters.
 
 * Elbow method to select optimal K .
+* 
 
 ## Output
 
@@ -30,3 +31,11 @@ In this phase, the goal is to **analyze and cluster users** from the [MovieLens 
 * Implement Collaborative Filtering (Matrix Factorization).
 
 * Develop Hybrid Recommendation System (clustering + CF).
+
+## Project Structure
+
+* RecommandationSystem.ipynb → contains the full implementation of the project (end-to-end).
+
+* Cluster Results → clustering results are shown on both the Training set and the Test set.
+
+* Other Python files → contain the same code but split into separate modules for better readability and reusability.
